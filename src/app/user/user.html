@@ -1,5 +1,6 @@
 <div class="sidebar">
-  <button class="sidebar-btn">
-    <span class="sidebar-text">Name</span>
+  <button class="sidebar-btn" (click)="onSelectUser()">
+    <img [src]="imagePath" [alt]="name"/>
+    <span class="sidebar-text">{{ name }}</span>
   </button>
 </div>

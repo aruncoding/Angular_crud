@@ -1,13 +1,13 @@
+/* Container for a single user item */
 .sidebar {
-  width: 30%;
-  height: 100vh;
-  padding: 20px;
+  width: 100%;
+  padding: 10px 0;
   box-sizing: border-box;
-  overflow-y: auto;
 }
 
+/* Button showing user info */
 .sidebar-btn {
-  width: 100%;
+  width: 30%;
   background-color: #34495e;
   color: white;
   border: none;
@@ -17,12 +17,28 @@
   text-align: left;
   cursor: pointer;
   transition: background-color 0.3s ease;
+
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and text */
 }
 
+/* Hover effect for button */
 .sidebar-btn:hover {
   background-color: #1abc9c;
 }
 
+/* Avatar image styling */
+.sidebar-btn img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;       /* Makes the image circular */
+  object-fit: cover;        /* Prevents image distortion */
+  flex-shrink: 0;           /* Prevents image from shrinking */
+}
+
+/* Username text styling */
 .sidebar-text {
+  font-weight: 500;
   display: inline-block;
 }

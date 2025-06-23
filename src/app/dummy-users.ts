@@ -7,16 +7,16 @@ export const DUMMY_USER = [
     {
         id: 'u2',
         name: 'Golu Singh',
-        avatar: 'first.png'
+        avatar: 'second.png'
     },
     {
         id: 'u3',
         name: 'Himansu Singh',
-        avatar: 'first.png'
+        avatar: 'third.png'
     },
     {
         id: 'u4',
         name: 'Hero Singh',
-        avatar: 'first.png'
+        avatar: 'fourth.png'
     },
 ]
